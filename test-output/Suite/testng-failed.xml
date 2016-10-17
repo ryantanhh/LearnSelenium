@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="month" value="12"/>
+  <parameter name="year" value="3219"/>
+  <parameter name="day" value="30"/>
+  <test name="Test(failed)">
+    <parameter name="month" value="12"/>
+    <parameter name="year" value="3219"/>
+    <parameter name="day" value="30"/>
+    <classes>
+      <class name="testwithxmlparam.TestWithXmlParam">
+        <methods>
+          <include name="testStartDay" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="clearupTest"/>
+        </methods>
+      </class> <!-- testwithxmlparam.TestWithXmlParam -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

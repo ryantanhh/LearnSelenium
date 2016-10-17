@@ -2,24 +2,41 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7448" started-at="2016-10-17T00:58:15Z" finished-at="2016-10-17T00:58:22Z">
+  <suite name="Suite" duration-ms="6659" started-at="2016-10-17T03:57:06Z" finished-at="2016-10-17T03:57:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7448" started-at="2016-10-17T00:58:15Z" finished-at="2016-10-17T00:58:22Z">
-      <class name="starter.TestSearchGoogle">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:starter.TestSearchGoogle@4c70fda8]" name="beforeClass" is-config="true" duration-ms="4798" started-at="2016-10-16T17:58:15Z" finished-at="2016-10-16T17:58:20Z">
+    <test name="Test" duration-ms="6659" started-at="2016-10-17T03:57:06Z" finished-at="2016-10-17T03:57:13Z">
+      <class name="testwithxmlparam.TestWithXmlParam">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testwithxmlparam.TestWithXmlParam@4501b7af]" name="setupTest" is-config="true" duration-ms="5709" started-at="2016-10-16T20:57:06Z" finished-at="2016-10-16T20:57:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSearchGoogle()[pri:0, instance:starter.TestSearchGoogle@4c70fda8]" name="testSearchGoogle" duration-ms="2014" started-at="2016-10-16T17:58:20Z" finished-at="2016-10-16T17:58:22Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testStartDay(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testwithxmlparam.TestWithXmlParam@4501b7af]" name="testStartDay" duration-ms="298" started-at="2016-10-16T20:57:12Z" finished-at="2016-10-16T20:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3219]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchGoogle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:starter.TestSearchGoogle@4c70fda8]" name="afterClass" is-config="true" duration-ms="611" started-at="2016-10-16T17:58:22Z" finished-at="2016-10-16T17:58:22Z">
+        </test-method> <!-- testStartDay -->
+        <test-method status="PASS" signature="clearupTest()[pri:0, instance:testwithxmlparam.TestWithXmlParam@4501b7af]" name="clearupTest" is-config="true" duration-ms="630" started-at="2016-10-16T20:57:12Z" finished-at="2016-10-16T20:57:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- starter.TestSearchGoogle -->
+        </test-method> <!-- clearupTest -->
+      </class> <!-- testwithxmlparam.TestWithXmlParam -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

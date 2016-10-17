@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+    <test name="Test">
+        <parameter name="year" value="3219"/>
+        <parameter name="month" value="12"/>
+        <parameter name="day" value="30"/>
+        <classes>
+            <class name="testwithxmlparam.TestWithXmlParam">
+                <methods>
+                    <include name="testStartDay"/>
+                </methods>
+            </class>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
